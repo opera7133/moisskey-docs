@@ -6,7 +6,7 @@ const config: DocsThemeConfig = {
   project: {
     link: 'https://github.com/opera7133/moisskey',
   },
-  docsRepositoryBase: 'https://github.com/opera7133/moisskey-docs',
+  docsRepositoryBase: 'https://github.com/opera7133/moisskey-docs/edit/main',
   footer: {
     text: 'Nextra Docs Template',
   },
