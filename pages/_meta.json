@@ -1,0 +1,15 @@
+{
+  "index": "はじめに",
+  "release": "リリースノート",
+  "roadmap": "ロードマップ",
+  "user": "ユーザー向け",
+  "dev": "開発者向け",
+  "tos": "利用規約",
+  "privacy": "プライバシーポリシー",
+  "contact": {
+    "title": "連絡 ↗",
+    "type": "page",
+    "href": "https://misskey.io/@wamo",
+    "newWindow": true
+  }
+}
