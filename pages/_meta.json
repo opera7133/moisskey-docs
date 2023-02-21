@@ -6,6 +6,12 @@
   "dev": "開発者向け",
   "tos": "利用規約",
   "privacy": "プライバシーポリシー",
+  "moisskey": {
+    "title": "Moisskey",
+    "type": "page",
+    "href": "https://moisskey.com",
+    "newWindow": true
+  },
   "contact": {
     "title": "連絡 ↗",
     "type": "page",
