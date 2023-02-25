@@ -10,6 +10,11 @@ const config: DocsThemeConfig = {
   footer: {
     text: 'Nextra Docs Template',
   },
+  useNextSeoProps() {
+    return {
+      titleTemplate: '%s – Moisskey Docs'
+    }
+  }
 }
 
 export default config
