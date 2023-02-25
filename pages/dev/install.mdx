@@ -1,0 +1,40 @@
+# インストール
+
+**Moisskeyは分散型ではないので、どのように動作するかを確認する目的以外でのインストールはおすすめしません。**
+
+## 前提
+
+以下のツール・ソフトウェアが必要です。
+
+* Node.js (16以上推奨)
+* MySQL / MariaDB
+
+## 構築
+
+```bash
+git clone https://github.com/opera7133/moisskey
+cd moisskey
+git checkout main
+npm install --frozen-lockfile
+```
+
+## 構成
+
+`.env.sample`ファイルをコピーし、`.env`にします。
+
+```bash
+cp .env.sample .env
+```
+
+## ビルド
+
+Moisskeyをビルドし、データベースを初期化します。
+
+```bash
+npm run build
+npm run db:push
+```
+
+## 起動
+
+`npm run start`をすれば起動完了です。
