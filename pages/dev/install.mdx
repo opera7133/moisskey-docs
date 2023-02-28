@@ -38,3 +38,13 @@ npm run db:push
 ## 起動
 
 `npm run start`をすれば起動完了です。
+
+# アップデート
+
+```bash
+git pull
+git checkout main
+npm install --frozen-lockfile
+npm run build
+npm run db:migrate
+```
